@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <!-- 按 scripts/make_icon.swift 的几何与颜色改写（s = 1000，y 轴向下） -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1E62E0"/>
+      <stop offset="1" stop-color="#58A2FA"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="15" stdDeviation="17.5" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="30" y="30" width="940" height="940" rx="210.3" fill="url(#bg)"/>
+  <rect x="180" y="200" width="500" height="600" rx="65" fill="#FBFBFB" filter="url(#card-shadow)"/>
+  <rect x="235" y="255" width="390" height="95" rx="30.4" fill="#2568EA"/>
+  <rect x="235" y="402" width="280.8" height="95" rx="30.4" fill="#DADADA"/>
+  <rect x="235" y="549" width="331.5" height="95" rx="30.4" fill="#DADADA"/>
+  <path d="M615 315 L615 655.2 L696.9 579.6 L747.3 676.2 L793.5 655.2 L743.1 560.7 L854.4 554.4 Z"
+        fill="#141414" stroke="#FFFFFF" stroke-width="18" stroke-linejoin="round" paint-order="stroke"/>
+</svg>
